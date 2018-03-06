@@ -9,6 +9,8 @@ import { SignUpFormComponent } from './homepage/sign-up-form/sign-up-form.compon
 import { HomepageComponent } from './homepage/homepage.component';
 import {RouterModule} from "@angular/router";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes = [
@@ -23,6 +25,8 @@ const routes = [
     SignInFormComponent,
     SignUpFormComponent,
     HomepageComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
